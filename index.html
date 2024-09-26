@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copy Text with Count</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input-group">
+            <input type="text" id="inputText" placeholder="Enter text" />
+            <input type="number" id="countInput" placeholder="Count" min="1" />
+            <button id="addButton">ADD</button>
+        </div>
+        <div class="action-group">
+            <button id="copyButton">Copy</button>
+            <button id="resetButton">Clear</button>
+        </div>
+        <textarea id="outputText" readonly></textarea>
+        <div id="messageAdd" class="hidden">Text Added!</div>
+        <div id="messageCopy" class="hidden">Text Copied!</div>
+        <div id="messageClear" class="hidden">Text Cleared!</div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
